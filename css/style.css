@@ -12,9 +12,8 @@ img {
     max-width: 100%;
 }
 
-.my-container {
-    max-width: 19rem;
-    margin: 0 auto;
+.my-px {
+    padding: 0 5.125rem;
 }
 
 /**************************************
