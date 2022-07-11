@@ -12,7 +12,7 @@ img {
     max-width: 100%;
 }
 
-.my-px {
+.ms_px {
     padding: 0 5.125rem;
 }
 
@@ -57,11 +57,11 @@ section:nth-child(odd) {
     padding-bottom: 2.25rem;
 }
 
-.portfolio .my-card {
+.portfolio .ms_card {
     padding-bottom: 1.75rem;
 }
 
-.portfolio .my-card img {
+.portfolio .ms_card img {
     border-radius: 0.5rem;
 }
 
