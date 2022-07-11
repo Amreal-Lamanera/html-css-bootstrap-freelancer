@@ -17,6 +17,14 @@
 }
 
 /**************************************
+    HEADER - NAV
+***************************************/
+
+.main-nav .nav-container {
+    padding: 2.25rem 0;
+}
+
+/**************************************
     MAIN
 ***************************************/
 section:nth-child(odd) {
@@ -47,6 +55,10 @@ section:nth-child(odd) {
     DEBUG
 ***************************************/
 
-.debug *>* {
+.debug .main-content>* {
+    padding: 10px;
+}
+
+.debug .main-footer>* {
     padding: 10px;
 }
