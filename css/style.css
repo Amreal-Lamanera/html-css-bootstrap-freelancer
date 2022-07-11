@@ -12,6 +12,11 @@ img {
     max-width: 100%;
 }
 
+.my-container {
+    max-width: 19rem;
+    margin: 0 auto;
+}
+
 /**************************************
     HEADER
 ***************************************/
@@ -62,6 +67,15 @@ section:nth-child(odd) {
 }
 
 /**************************************
+    ABOUT
+***************************************/
+
+.about {
+    padding-top: 3rem;
+    padding-bottom: 1.75rem;
+}
+
+/**************************************
     FOOTER
 ***************************************/
 
@@ -85,9 +99,9 @@ section:nth-child(odd) {
     DEBUG
 ***************************************/
 
-.debug .main-content>*:not([class*="portfolio"]) {
+/* .debug .main-content>*:not([class*="portfolio"]) {
     padding: 10px;
-}
+} */
 
 .debug .main-footer>* {
     padding: 10px;
