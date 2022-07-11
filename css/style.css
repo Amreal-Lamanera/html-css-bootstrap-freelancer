@@ -8,6 +8,10 @@
     --blue: #3A546D;
 }
 
+img {
+    max-width: 100%;
+}
+
 /**************************************
     HEADER
 ***************************************/
@@ -27,8 +31,33 @@
 /**************************************
     MAIN
 ***************************************/
+
 section:nth-child(odd) {
     background-color: var(--light-green);
+}
+
+/**************************************
+    HERO
+***************************************/
+
+.hero .hero-avatar {
+    width: 200px;
+}
+
+/**************************************
+    PORTFOLIO
+***************************************/
+
+.portfolio .card-container {
+    padding-bottom: 2.25rem;
+}
+
+.portfolio .my-card {
+    padding-bottom: 1.75rem;
+}
+
+.portfolio .my-card img {
+    border-radius: 0.5rem;
 }
 
 /**************************************
@@ -55,7 +84,7 @@ section:nth-child(odd) {
     DEBUG
 ***************************************/
 
-.debug .main-content>* {
+.debug .main-content>*:not([class*="portfolio"]) {
     padding: 10px;
 }
 
