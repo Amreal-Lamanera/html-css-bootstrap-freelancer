@@ -75,6 +75,10 @@ section:nth-child(odd) {
     padding-bottom: 1.75rem;
 }
 
+.about .btn-outline-light:hover {
+    background-color: #158f76;
+}
+
 /**************************************
     FOOTER
 ***************************************/
