@@ -48,7 +48,8 @@ section:nth-child(odd) {
     PORTFOLIO
 ***************************************/
 
-.portfolio .card-container {
+.portfolio {
+    padding-top: 3.25rem;
     padding-bottom: 2.25rem;
 }
 
