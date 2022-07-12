@@ -78,7 +78,7 @@
                 </figure>
 
                 <h1 class="fw-bold">Start Bootstrap</h1>
-                <div class="dash_container position-relative align-self-stretch">
+                <div class="dash_containeralign-self-stretch">
                     <div class="dash">
                         <i class="bi bi-star-fill"></i>
                     </div>
@@ -101,7 +101,7 @@
                         Portfolio
                     </h3>
 
-                    <div class="dash_container position-relative">
+                    <div class="dash_container pb-3">
                         <div class="dash">
                             <i class="bi bi-star-fill"></i>
                         </div>
@@ -144,15 +144,16 @@
                 <div class="container-lg d-flex flex-column justify-content-center align-items-center ms_px">
 
                     <h3 class="text-center">ABOUT</h3>
-                    <div class="about-desc py-3">
-                        <p>
+                    <div class="about-desc py-3 row row-cols-1 row-cols-lg-2 gx-3">
+                        <p class="col">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae blanditiis eveniet nemo
                             officia eum vero incidunt placeat aperiam ipsa ea, quam debitis esse omnis repellat
                             veritatis sint laudantium optio eius!
                         </p>
 
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae blanditiis eveniet nemo
+                        <p class="col">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae blanditiis eveniet
+                            nemo
                             officia eum vero incidunt placeat aperiam ipsa ea, quam debitis esse omnis repellat
                             veritatis sint laudantium optio eius!
                         </p>
@@ -169,16 +170,28 @@
             <section class="contact">
 
                 <div class="container-lg ms_px d-flex flex-column justify-content-center ">
-                    <h3 class="text-uppercase align-self-center">Contact me</h3>
 
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
-                        <li class="list-group-item">A fourth item</li>
-                        <li class="list-group-item">And a fifth one</li>
-                    </ul>
+                    <h3 class="text-uppercase align-self-center fw-bold">Contact me</h3>
 
+                    <div class="dash_container pb-3 text-center">
+                        <div class="dash">
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+
+                    <form action="" method="get">
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <input type="text" name="name" id="" placeholder="Name">
+                            </li>
+                            <li class="list-group-item">A second item</li>
+                            <li class="list-group-item">A third item</li>
+                            <li class="list-group-item">A fourth item</li>
+                            <li class="list-group-item">And a fifth one</li>
+                        </ul>
+
+                    </form>
                 </div>
 
             </section>

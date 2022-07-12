@@ -22,25 +22,31 @@ img {
 
 .dash::before {
     content: '';
-    position: absolute;
     border: 0.1rem solid currentColor;
     width: 10vw;
     max-width: 120px;
-    top: 50%;
-    left: 50%;
-    transform: translatex(1.5rem);
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .dash::after {
     content: '';
-    position: absolute;
     border: 0.1rem solid currentColor;
     width: 10vw;
     max-width: 120px;
-    top: 50%;
-    right: 50%;
-    transform: translatex(-1.5rem);
+    display: inline-block;
+    vertical-align: middle;
 }
+
+input {
+    border: none;
+    width: 50%;
+}
+
+input:focus-visible {
+    outline: none !important;
+}
+
 
 /**************************************
     HEADER
@@ -110,6 +116,15 @@ section:nth-child(odd) {
 
 .about .btn-outline-light:hover {
     background-color: #16a286;
+}
+
+/**************************************
+    CONTACT
+***************************************/
+
+.contact {
+    padding-top: 5.25rem;
+    padding-bottom: 3.5rem;
 }
 
 /**************************************
