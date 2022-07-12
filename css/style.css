@@ -16,11 +16,6 @@ img {
     padding: 0 5.125rem;
 }
 
-.dash_container {
-    position: relative;
-    font-size: 2rem;
-}
-
 .dash::before {
     content: '';
     position: absolute;
@@ -40,8 +35,6 @@ img {
     top: 50%;
     right: 130%;
 }
-
-
 
 /**************************************
     HEADER
@@ -75,6 +68,12 @@ section:nth-child(odd) {
 
 .hero .hero-avatar {
     width: 250px;
+}
+
+.hero li:not(:first-child):before {
+    content: '-';
+    position: absolute;
+    left: -1rem;
 }
 
 /**************************************
