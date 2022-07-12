@@ -78,10 +78,8 @@
                 </figure>
 
                 <h1 class="fw-bold">Start Bootstrap</h1>
-                <div class="dash_containeralign-self-stretch">
-                    <div class="dash">
-                        <i class="bi bi-star-fill"></i>
-                    </div>
+                <div class="dash pb-3 text-center fs-3">
+                    <i class="bi bi-star-fill"></i>
                 </div>
                 <ul class="list-inline">
                     <li class="list-inline-item position-relative me-3">graphic artist</li>
@@ -101,10 +99,8 @@
                         Portfolio
                     </h3>
 
-                    <div class="dash_container pb-3">
-                        <div class="dash">
-                            <i class="bi bi-star-fill"></i>
-                        </div>
+                    <div class="dash pb-3 text-center fs-3">
+                        <i class="bi bi-star-fill"></i>
                     </div>
 
                     <div class="row">
@@ -173,27 +169,25 @@
 
                     <h3 class="text-uppercase align-self-center fw-bold">Contact me</h3>
 
-                    <div class="dash_container pb-3 text-center">
-                        <div class="dash">
-                            <i class="bi bi-star-fill"></i>
-                        </div>
+                    <div class="dash pb-3 text-center fs-3">
+                        <i class="bi bi-star-fill"></i>
                     </div>
 
-                    <form action="" method="get">
+                    <form action="#" method="get">
 
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">
-                                <input type="text" name="name" id="" placeholder="Name">
+                                <input type="text" name="name" id="" placeholder="Name" required>
                             </li>
                             <li class="list-group-item">
-                                <input type="email" name="email" id="" placeholder="Email Address">
+                                <input type="email" name="email" id="" placeholder="Email Address" required>
                             </li>
                             <li class="list-group-item">
-                                <input type="tel" name="tel" id="" placeholder="Phone Number">
+                                <input type="tel" name="tel" id="" placeholder="Phone Number" required>
                             </li>
                             <li class="list-group-item">
-                                <textarea name="message" cols="30" rows="10" placeholder="Message"
-                                    class="my-2"></textarea>
+                                <textarea name="message" cols="30" rows="10" placeholder="Message" class="my-2"
+                                    required></textarea>
                             </li>
                             <li class="list-group-item pt-3">
                                 <button type="submit" class="btn bg_green text-white">Send</button>
@@ -210,15 +204,49 @@
         <!-- /MAIN -->
 
         <!-- FOOTER START -->
-        <footer class="main-footer">
+        <footer class="main-footer text-white">
 
             <div class="contacts py-3">
 
-                <div class="container-lg d-flex text-center">
+                <div class="container-lg text-center">
+                    <div class="row row row-cols-1 row-cols-lg-3 gy-4">
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eligendi aut saepe nostrum quam
-                        ducimus, hic corrupti architecto praesentium sequi rerum. Similique deleniti facilis magni neque
-                        harum eum? Enim, impedit.</p>
+                        <div class="col">
+
+                            <h4 class="text-uppercase fs-6">Location</h4>
+                            <p>2215 John Daniel Drive Clark, MO 54243</p>
+
+                        </div>
+                        <div class="col mb-3">
+                            <h4 class="text-uppercase fs-6">Around the web</h4>
+                            <div class="social_icons d-flex justify-content-center">
+                                <div
+                                    class="icon rounded-circle border-white border border-1 d-flex justify-content-center align-items-center me-2">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </div>
+                                <div
+                                    class="icon rounded-circle border-white border border-1 d-flex justify-content-center align-items-center me-2">
+                                    <i class="fa-brands fa-google-plus-g rounded-circle"></i>
+                                </div>
+                                <div
+                                    class="icon rounded-circle border-white border border-1 d-flex justify-content-center align-items-center me-2">
+                                    <i class="fa-brands fa-twitter rounded-circle"></i>
+                                </div>
+                                <div
+                                    class="icon rounded-circle border-white border border-1 d-flex justify-content-center align-items-center me-2">
+                                    <i class="fa-brands fa-linkedin rounded-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <h4 class="text-uppercase fs-6">About freelancer</h4>
+                            <p>
+                                Freelancer is a free to use, open source Bootstrap theme created by <a href="#">Start
+                                    Bootstrap</a>.
+                            </p>
+                        </div>
+
+                    </div>
 
                 </div>
 
@@ -227,7 +255,7 @@
             <div class="copy">
 
                 <div class="container text-center">
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p class="m-0 py-4 ">Copyright <i class="fa-regular fa-copyright"> Your Website 2019</i></p>
                 </div>
 
             </div>

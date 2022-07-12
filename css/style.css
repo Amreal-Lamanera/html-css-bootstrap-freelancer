@@ -24,15 +24,7 @@ img {
     font-size: 2rem;
 }
 
-.dash::before {
-    content: '';
-    border: 0.1rem solid currentColor;
-    width: 10vw;
-    max-width: 120px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
+.dash::before,
 .dash::after {
     content: '';
     border: 0.1rem solid currentColor;
@@ -150,12 +142,23 @@ section:nth-child(odd) {
     background-color: var(--blue);
 }
 
+.main-footer .social_icons>* {
+    display: inline-block;
+    width: 3rem;
+    aspect-ratio: 1;
+}
+
+.main-footer a {
+    color: var(--light-green);
+}
+
 /**************************************
     FOOTER - COPY
 ***************************************/
 
 .main-footer .copy {
     background-color: var(--dark-blue);
+    font-size: 0.75rem;
 }
 
 /**************************************
@@ -166,6 +169,6 @@ section:nth-child(odd) {
     padding: 10px;
 } */
 
-.debug .main-footer>* {
+/* .debug .main-footer>* {
     padding: 10px;
-}
+} */
