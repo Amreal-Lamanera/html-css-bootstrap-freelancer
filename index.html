@@ -25,11 +25,40 @@
         <!-- HEADER START -->
         <header class="main-header">
             <nav class="main-nav">
-                <div class="container-lg px-3 text-white text-uppercase nav-container">
-                    <div class="d-flex justify-content-between">
-                        <h1 class="text-uppercase fs-6">Start Bootstrap</h1>
-                        <div class="bars"><i class="fa-solid fa-bars"></i></div>
-                    </div>
+                <div class="container-lg py-4 text-white text-uppercase nav-container">
+
+                    <!-- TODO: vedi bootstrap navbar -->
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+
+
+                        <a class="navbar-brand text-uppercase" href="#">Start Bootstrap</a>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+
+                            <span class="navbar-toggler-icon"></span>
+
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" aria-current="page" href="#">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Contact</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </nav>
                 </div>
             </nav>
         </header>
@@ -38,6 +67,7 @@
         <!-- MAIN START -->
         <main class="main-content">
 
+            <!-- HERO SECTION -->
             <section class="hero d-flex flex-column align-items-center text-white text-uppercase text-center">
 
                 <figure class="hero-avatar">
@@ -49,6 +79,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, a?</p>
 
             </section>
+            <!-- /HERO -->
 
             <!-- PORTFOLIO SECTION -->
             <section class="portfolio text-center">
@@ -141,7 +172,7 @@
         <!-- FOOTER START -->
         <footer class="main-footer">
 
-            <div class="about">
+            <div class="contacts py-3">
 
                 <div class="container-lg d-flex text-center">
 
@@ -177,3 +208,5 @@
         <!-- FONT AWESOME -->
         <script src="https://kit.fontawesome.com/b0485a66c8.js" crossorigin="anonymous"></script>
     </body>
+
+</html>

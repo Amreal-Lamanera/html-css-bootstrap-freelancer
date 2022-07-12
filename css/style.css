@@ -28,8 +28,10 @@ img {
     HEADER - NAV
 ***************************************/
 
-.main-nav .nav-container {
-    padding: 2.25rem 0;
+.main-header .navbar-nav::before {
+    content: '';
+    border-top: 1px solid grey;
+    margin: 1rem 0;
 }
 
 /**************************************
@@ -86,7 +88,7 @@ section:nth-child(odd) {
     FOOTER - ABOUT
 ***************************************/
 
-.main-footer .about {
+.main-footer .contacts {
     background-color: var(--blue);
 }
 
