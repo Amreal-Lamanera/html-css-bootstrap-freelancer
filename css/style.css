@@ -95,9 +95,8 @@ section:nth-child(odd) {
 }
 
 .hero li:not(:first-child):before {
-    content: '-';
-    position: absolute;
-    left: -1rem;
+    content: '- ';
+    display: inline;
 }
 
 /**************************************
