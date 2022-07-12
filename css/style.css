@@ -16,6 +16,10 @@ img {
     padding: 0 5.125rem;
 }
 
+.dash_container {
+    font-size: 2rem;
+}
+
 .dash::before {
     content: '';
     position: absolute;
