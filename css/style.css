@@ -23,21 +23,23 @@ img {
 .dash::before {
     content: '';
     position: absolute;
-    border: 0.1rem solid white;
+    border: 0.1rem solid currentColor;
     width: 10vw;
     max-width: 120px;
     top: 50%;
-    left: 130%;
+    left: 50%;
+    transform: translatex(1.5rem);
 }
 
 .dash::after {
     content: '';
     position: absolute;
-    border: 0.1rem solid white;
+    border: 0.1rem solid currentColor;
     width: 10vw;
     max-width: 120px;
     top: 50%;
-    right: 130%;
+    right: 50%;
+    transform: translatex(-1.5rem);
 }
 
 /**************************************
