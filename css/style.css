@@ -8,6 +8,10 @@
     --blue: #3A546D;
 }
 
+.bg_green {
+    background-color: var(--light-green);
+}
+
 img {
     max-width: 100%;
 }
@@ -38,12 +42,14 @@ img {
     vertical-align: middle;
 }
 
-input {
+input,
+textarea {
     border: none;
     width: 50%;
 }
 
-input:focus-visible {
+input:focus-visible,
+textarea:focus-visible {
     outline: none !important;
 }
 
