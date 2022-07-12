@@ -16,6 +16,33 @@ img {
     padding: 0 5.125rem;
 }
 
+.dash_container {
+    position: relative;
+    font-size: 2rem;
+}
+
+.dash::before {
+    content: '';
+    position: absolute;
+    border: 0.1rem solid white;
+    width: 10vw;
+    max-width: 120px;
+    top: 50%;
+    left: 130%;
+}
+
+.dash::after {
+    content: '';
+    position: absolute;
+    border: 0.1rem solid white;
+    width: 10vw;
+    max-width: 120px;
+    top: 50%;
+    right: 130%;
+}
+
+
+
 /**************************************
     HEADER
 ***************************************/
