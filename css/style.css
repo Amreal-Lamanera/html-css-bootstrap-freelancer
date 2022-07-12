@@ -37,12 +37,21 @@ img {
 input,
 textarea {
     border: none;
-    width: 50%;
+}
+
+input {
+    width: 25%;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
 }
 
 input:focus-visible,
 textarea:focus-visible {
     outline: none !important;
+    background-color: rgb(240, 240, 240);
 }
 
 input::placeholder,
