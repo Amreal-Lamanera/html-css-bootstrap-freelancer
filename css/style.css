@@ -27,8 +27,9 @@ img {
 .dash::before,
 .dash::after {
     content: '';
-    border: 0.1rem solid currentColor;
+    height: 4px;
     width: 10vw;
+    background-color: currentColor;
     max-width: 120px;
     display: inline-block;
     vertical-align: middle;
@@ -152,7 +153,7 @@ section:nth-child(odd) {
 
 .main-footer .social_icons>* {
     display: inline-block;
-    width: 3rem;
+    width: 2rem;
     aspect-ratio: 1;
 }
 
